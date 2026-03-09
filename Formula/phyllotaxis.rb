@@ -1,28 +1,28 @@
 class Phyllotaxis < Formula
-  desc "Progressive disclosure CLI for OpenAPI specs"
+  desc "Progressive disclosure CLI for OpenAPI documents"
   homepage "https://github.com/OpenScribbler/phyllotaxis"
-  version "0.2.0"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/OpenScribbler/phyllotaxis/releases/download/v#{version}/phyllotaxis-aarch64-apple-darwin.tar.gz"
-      sha256 "e459c5de37451af5c144db2cda68459007878335de649cb32d9d2341663c964f"
+      sha256 "1d080c0451f0da52f654fcb3718939c367c5c320f84f0c0818acd9af550b6dfa"
     end
     on_intel do
       url "https://github.com/OpenScribbler/phyllotaxis/releases/download/v#{version}/phyllotaxis-x86_64-apple-darwin.tar.gz"
-      sha256 "29b186688bab5cc7c20498f00d81bb67603a56b490277c2dd63ecb43ffccc20d"
+      sha256 "5e027ed3eb9b85eadccfbbf4aba8d597f26310cc42a508032d7ce6db5d27cea4"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/OpenScribbler/phyllotaxis/releases/download/v#{version}/phyllotaxis-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "866ac913a52c923b14b5b3747a16d5c32420375f60974f1076bdf38aa4075201"
+      sha256 "edaec86a649c08ea2d0eb86f99b4b073167d6c749ab77adea7cd13e862e27b9e"
     end
     on_intel do
       url "https://github.com/OpenScribbler/phyllotaxis/releases/download/v#{version}/phyllotaxis-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ad6fd3faaa71fc89a3283a894560eb0957158faefb81103095f38e56299de7b3"
+      sha256 "1b3eaff4d0da1c4b78018fdc1a9bb2176d23f38703912c8c0e14a30a80a01798"
     end
   end
 
