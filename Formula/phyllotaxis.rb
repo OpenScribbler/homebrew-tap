@@ -1,7 +1,7 @@
 class Phyllotaxis < Formula
   desc "Progressive disclosure CLI for OpenAPI documents"
   homepage "https://github.com/OpenScribbler/phyllotaxis"
-  version "0.3.1"
+  version "0.4.0"
   license "Apache-2.0"
 
   on_macos do
