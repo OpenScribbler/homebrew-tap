@@ -1,16 +1,16 @@
 class Syllago < Formula
   desc "AI coding tool content manager"
   homepage "https://github.com/OpenScribbler/syllago"
-  version "0.10.3"
+  version "0.11.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/OpenScribbler/syllago/releases/download/v0.10.3/syllago-darwin-arm64"
-      sha256 "5ac25ba80b1486d5f38086ac48e407c1b97d96fc04b343e7dfbc5537e55a2d1c"
+      url "https://github.com/OpenScribbler/syllago/releases/download/v0.11.0/syllago-darwin-arm64"
+      sha256 "b4dbaba981393762aeaf708c84b863c45f177c1da5c12eba60cf7cbd2999969b"
     else
-      url "https://github.com/OpenScribbler/syllago/releases/download/v0.10.3/syllago-darwin-amd64"
-      sha256 "66c54673fe70bf87297b8ffd212c8ee56829f79eb580c6982bb13cbbf9456790"
+      url "https://github.com/OpenScribbler/syllago/releases/download/v0.11.0/syllago-darwin-amd64"
+      sha256 "cdf3927ff3074ca29fadf61df41d7603cc29e9c6ef7d8d21e07bbbcdd0f64013"
     end
   end
 
